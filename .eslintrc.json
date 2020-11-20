@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+
+    "rules": {
+        "prettier/prettier":"error",
+        "no-unused-vars":"off",
+        "no-plusplus":"off",
+        "no-console":"off",
+        "func-names":"warn",
+        "no-useless-concat":"off",
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "indent": ["error", 4]
+    }
+}
